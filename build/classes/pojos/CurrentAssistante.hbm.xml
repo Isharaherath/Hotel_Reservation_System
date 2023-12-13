@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Aug 7, 2022 12:12:04 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="pojos.CurrentAssistante" table="current_assistante" catalog="hotel_system" optimistic-lock="version">
+        <id name="id" type="java.lang.Integer">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        <property name="hotelId" type="string">
+            <column name="hotel_id" length="100" not-null="true" unique="true" />
+        </property>
+        <property name="username" type="string">
+            <column name="username" length="100" not-null="true" />
+        </property>
+        <property name="password" type="string">
+            <column name="password" length="100" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

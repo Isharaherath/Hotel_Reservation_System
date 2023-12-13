@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Aug 7, 2022 12:12:04 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="pojos.Payment" table="payment" catalog="hotel_system" optimistic-lock="version">
+        <id name="id" type="java.lang.Integer">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        <property name="package_" type="string">
+            <column name="package" length="100" not-null="true" />
+        </property>
+        <property name="roomNo" type="int">
+            <column name="room_no" not-null="true" />
+        </property>
+        <property name="customer" type="string">
+            <column name="customer" length="100" not-null="true" />
+        </property>
+        <property name="paymentId" type="string">
+            <column name="payment_id" length="100" not-null="true" unique="true" />
+        </property>
+        <property name="payment" type="string">
+            <column name="payment" length="65535" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

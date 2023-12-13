@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="Hotel_Reservation_System">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/org.eclipse.persistence.moxy-2.7.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/KGradientPanel.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jcalendar-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/org.eclipse.persistence.antlr-2.7.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/org.eclipse.persistence.core-2.7.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mysql-connector-java-5.1.23-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mysql-connector-java-5.1.47-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/org.eclipse.persistence.asm-9.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/org.eclipse.persistence.jpa.jpql-2.7.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/rs2xml.jar!/" />
+      <root url="jar://$PROJECT_DIR$/org.eclipse.persistence.jpa-2.7.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

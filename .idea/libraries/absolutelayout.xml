@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="absolutelayout">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/absolutelayout/org-jdesktop-beansbinding-2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/absolutelayout/org-jdesktop-beansbinding.jar!/" />
+      <root url="jar://$PROJECT_DIR$/absolutelayout/AbsoluteLayout.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

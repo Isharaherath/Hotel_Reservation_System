@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="org-jdesktop-beansbinding">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Beans_Binding_-_beansbinding-1.2.1jar/Beans_Binding_-_beansbinding-1.2/org-jdesktop-beansbinding.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
